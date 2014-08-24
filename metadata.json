@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "-122.3698,37.8255,10", 
+    "bounds": "-123.6346,36.8642,-121.2067,38.859", 
+    "minzoom": "8", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "13", 
+    "name": "liquefaction"
+}
