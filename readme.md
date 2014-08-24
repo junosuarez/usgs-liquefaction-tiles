@@ -1,6 +1,6 @@
 # usgs liquefaction
 
-[see the map](http://jden.github.io/usgs-liquefaction-tiles)
+[see the map](https://jden.github.io/usgs-liquefaction-tiles)
 
 The type of rock you stand on is a factor in determining earthquake risk.
 
