@@ -1,0 +1,26 @@
+{
+  "name": "liq",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > package.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jden/usgs-liquefaction-tiles.git"
+  },
+  "author": "",
+  "license": "public domain",
+  "bugs": {
+    "url": "https://github.com/jden/usgs-liquefaction-tiles/issues"
+  },
+  "homepage": "https://github.com/jden/usgs-liquefaction-tiles",
+  "dependencies": {
+    "leaflet-map": "^0.1.0",
+    "leaflet": "^0.7.3"
+  },
+  "devDependencies": {
+    "browserify": "^5.10.1"
+  }
+}
