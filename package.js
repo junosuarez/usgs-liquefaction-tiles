@@ -48,7 +48,7 @@ function leafletMap (opt) {
     defaultStyle: true
   }
   if (opt.defaultStyle) {
-    L.Icon.Default.imagePath = '//cdn.leafletjs.com/leaflet-0.7.3/images'
+    L.Icon.Default.imagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images'
     ensureStyle()
   }
 
@@ -66,7 +66,7 @@ function ensureStyle() {
 
   var mapStyle = document.createElement('link')
   mapStyle.setAttribute('rel','stylesheet')
-  mapStyle.setAttribute('href','//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css')
+  mapStyle.setAttribute('href','//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css')
   document.body.appendChild(mapStyle)
 }
 
