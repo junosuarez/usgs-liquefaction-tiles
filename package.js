@@ -52,6 +52,7 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 infoTitle.addTo(map);
+
 },{"leaflet":3,"leaflet-map":2}],2:[function(require,module,exports){
 var L = require('leaflet')
 
