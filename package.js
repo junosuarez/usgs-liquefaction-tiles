@@ -23,7 +23,9 @@ var infoTitle = L.control({position: 'bottomleft'});
 infoTitle.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'info-title');
 
-  var html = '<div style="width: 500px; background: #fff; padding-left: 20px; padding-top: 5px; padding-right: 20px; padding-bottom: 10px;"><h1>Bay Area Liquefaction Susceptibility</h1><p style="font-size: 1.2em;">This map shows liquefation susceptibility data for the San Francisco Bay Area as determined by <a href="http://pubs.usgs.gov/of/2000/of00-444/">USGS Open-File Report 00-444, 2000</a>. "Liquefaction is the transformation of a saturated granular material from a solid to a liquefied state as a result of increased pore pressure and decreased effective stress (as cited in USGS2000)." This is not a map of likelihood of ground shaking or ground failures, however liquefaction has been observed to results in ground failures such as "sand boils, lateral spreads, ground settlement, ground cracking and ground warping (as cited in USGS 2000)."</p>';
+  var html = '<h1>Bay Area Liquefaction Susceptibility</h1><p style="font-size: 1.2em;">This map shows liquefation susceptibility data for the San Francisco Bay Area as determined by <a style="color: #fff; font-weight: bold;" href="http://pubs.usgs.gov/of/2000/of00-444/">USGS Open-File Report 00-444, 2000</a>. "Liquefaction is the transformation of a saturated granular material from a solid to a liquefied state as a result of increased pore pressure and decreased effective stress (as cited in USGS2000)." This is not a map of likelihood of ground shaking or ground failures, however liquefaction has been observed to result in ground failures such as "sand boils, lateral spreads, ground settlement, ground cracking and ground warping (as cited in USGS 2000)."</p>';
+
+  div.setAttribute('style', div.getAttribute('style') + '; width: 420px; display: inline-block; background: #000; padding-left: 20px; padding-top: 5px; padding-right: 20px; padding-bottom: 10px; color: #fff; display: inline-block;');
 
   div.innerHTML = html;
 
