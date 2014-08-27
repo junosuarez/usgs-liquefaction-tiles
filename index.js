@@ -44,6 +44,8 @@ legend.onAdd = function (map) {
       'Water': 'rgb(190,232,255)'
     }
 
+    div.setAttribute('style', div.getAttribute('style') + '; background: #ccc; padding-left: 15px; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; margin-right: 10px; margin-bottom: 10px; font-size: 1.2em;');
+
     div.innerHTML = Object.keys(colors).reduce(function (html, label) {
       return html + '<i style="background:'+colors[label]+'; width: 1em; height: 1em; display: inline-block; border: 1px solid #fff;"> </i> '+label+'<br/>'
     }, '')
@@ -51,5 +53,5 @@ legend.onAdd = function (map) {
     return div;
 };
 
-legend.addTo(map);
 infoTitle.addTo(map);
+legend.addTo(map);
